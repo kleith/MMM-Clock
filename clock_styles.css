@@ -1,0 +1,29 @@
+.wrapper-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-clock .time {
+  /* color: yellow; */
+  display: inline-block;
+  font-size: 45px;
+}
+.wrapper-clock .date {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  text-align: center;
+}
+.wrapper-clock .date .day {
+  font-size: 25px;
+  line-height: 1;
+}
+.wrapper-clock .date .month {
+  display: block;
+  text-transform: capitalize;
+}
+.wrapper-clock .date .year {
+  display: none;
+  font-size: 12px;
+  font-weight: bold;
+}
